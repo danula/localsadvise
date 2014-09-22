@@ -1,0 +1,34 @@
+User
+====
+number userId
+text firstnName
+text LastName
+text password
+number userRating
+
+
+Questions
+=========
+number questionId
+number locationId
+number userId
+text question
+
+Answers
+===============
+number answerId
+number userId
+number questionId
+text answer
+number answerRating
+
+
+Location
+=========
+number longitude 
+number latitude
+text name
+text category
+number numberOfQuestions
+number zoomLevel
+
